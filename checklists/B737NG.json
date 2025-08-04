@@ -2,7 +2,7 @@
   "aircraft": "B737NG",
   "checklists": [
     {
-      "title": "Stage 0: Preflight Setup",
+      "title": "Preflight Setup",
       "items": [
         "Set parking brake",
         "Battery ON",
@@ -14,10 +14,9 @@
       ]
     },
     {
-      "title": "Stage 1: Power Up (Choose A or B)",
+      "title": "Power Up (Choose A or B)",
       "items": [
         "--- Option A: GROUND POWER ---",
-        "Connect ground power via EFB/menu",
         "GROUND POWER switch ON (blue AVAIL light must be lit)",
         "--- Option B: APU Start ---",
         "APU switch ON (wait 3 secs)",
@@ -28,20 +27,28 @@
       ]
     },
     {
-      "title": "Stage 2: Preflight Checks & FMC Init",
+      "title": "Preflight Checks & FMC Init",
       "items": [
+        "FMC: INIT, ROUTE, DEP/ARR, PERF INIT, N1 LIMIT, TAKEOFF",
+        "Yaw damper ON",
         "Fuel pumps ON (tanks with fuel)",
         "Hydraulic Elec Pumps ON",
         "Position lights STEADY",
         "Window heat ON",
         "Probe heat OFF",
-        "Yaw damper ON",
-        "FMC: INIT, ROUTE, DEP/ARR, PERF INIT, N1 LIMIT, TAKEOFF"
+        "Anti-ice as needed",
+        "Trim Air ON",
+        "Packs AUTO",
+        "Airfield elevation set"
       ]
     },
     {
-      "title": "Stage 3: Engine Start (Pushback)",
+      "title": "Engine Start (Pushback)",
       "items": [
+        "APU switch ON (wait 3 secs)",
+        "APU START switch ON and release",
+        "Wait for APU GEN + BLEED available",
+        "APU GEN ON",
         "Beacon ON",
         "Hydraulic Pumps ON",
         "Fuel pumps ON",
@@ -54,14 +61,13 @@
       ]
     },
     {
-      "title": "Stage 4: After Engine Start",
+      "title": "After Engine Start",
       "items": [
         "Engine generators ON",
         "APU GEN OFF",
         "APU BLEED OFF",
         "APU OFF",
         "Packs ON",
-        "Trim Air ON",
         "Engine BLEED ON",
         "Probe heat ON",
         "Anti-ice as needed",
@@ -74,7 +80,7 @@
       ]
     },
     {
-      "title": "Stage 5: Taxi and Takeoff",
+      "title": "Taxi and Takeoff",
       "items": [
         "Taxi light ON",
         "Runway Turnoff/Takeoff lights ON at runway",
@@ -83,7 +89,7 @@
       ]
     },
     {
-      "title": "Stage 6: Landing & Shutdown",
+      "title": "Landing & Shutdown",
       "items": [
         "Start APU during taxi (if needed)",
         "Taxi light ON",
