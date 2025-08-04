@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  margin: 2em;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.checklist-section {
+  margin-top: 0.5em;
+  padding-top:10px;
+  padding-bottom:3px;
+  padding-left:10px;
+  padding-right:10px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.checklist-section h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul label {
+  cursor:pointer
+}
+
+input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
+  color: #5fc400;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #5fc400;
+}

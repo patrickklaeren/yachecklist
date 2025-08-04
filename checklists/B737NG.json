@@ -1,0 +1,101 @@
+{
+  "aircraft": "B737NG",
+  "checklists": [
+    {
+      "title": "Stage 0: Preflight Setup",
+      "items": [
+        "Set parking brake",
+        "Battery ON",
+        "Standby power AUTO",
+        "Emergency exit lights ARM",
+        "IRS Mode Selectors NAV (L/R)",
+        "POS INIT page: Set IRS position",
+        "Adjust panel lights as needed"
+      ]
+    },
+    {
+      "title": "Stage 1: Power Up (Choose A or B)",
+      "items": [
+        "--- Option A: GROUND POWER ---",
+        "Connect ground power via EFB/menu",
+        "GROUND POWER switch ON (blue AVAIL light must be lit)",
+        "--- Option B: APU Start ---",
+        "APU switch ON (wait 3 secs)",
+        "APU START switch ON and release",
+        "Wait for APU GEN + BLEED available",
+        "APU GEN ON",
+        "APU BLEED ON"
+      ]
+    },
+    {
+      "title": "Stage 2: Preflight Checks & FMC Init",
+      "items": [
+        "Fuel pumps ON (tanks with fuel)",
+        "Hydraulic Elec Pumps ON",
+        "Position lights STEADY",
+        "Window heat ON",
+        "Probe heat OFF",
+        "Yaw damper ON",
+        "FMC: INIT, ROUTE, DEP/ARR, PERF INIT, N1 LIMIT, TAKEOFF"
+      ]
+    },
+    {
+      "title": "Stage 3: Engine Start (Pushback)",
+      "items": [
+        "Beacon ON",
+        "Hydraulic Pumps ON",
+        "Fuel pumps ON",
+        "Packs OFF",
+        "Engine BLEED ON",
+        "APU BLEED ON",
+        "Engine 2 START switch GRD",
+        "At 25% N2: Engine 2 fuel lever to IDLE",
+        "Repeat for Engine 1"
+      ]
+    },
+    {
+      "title": "Stage 4: After Engine Start",
+      "items": [
+        "Engine generators ON",
+        "APU GEN OFF",
+        "APU BLEED OFF",
+        "APU OFF",
+        "Packs ON",
+        "Trim Air ON",
+        "Engine BLEED ON",
+        "Probe heat ON",
+        "Anti-ice as needed",
+        "Set flaps for takeoff",
+        "Trim set per FMC",
+        "Check flight controls",
+        "Autobrake RTO",
+        "Taxi light ON",
+        "Transponder TA/RA"
+      ]
+    },
+    {
+      "title": "Stage 5: Taxi and Takeoff",
+      "items": [
+        "Taxi light ON",
+        "Runway Turnoff/Takeoff lights ON at runway",
+        "Landing lights ON below 10,000 ft",
+        "Strobes ON at runway entry"
+      ]
+    },
+    {
+      "title": "Stage 6: Landing & Shutdown",
+      "items": [
+        "Start APU during taxi (if needed)",
+        "Taxi light ON",
+        "Landing lights OFF",
+        "Strobes OFF after runway exit",
+        "Engine cutoff levers to OFF",
+        "Beacon OFF",
+        "Fuel pumps OFF",
+        "Hydraulic pumps OFF",
+        "IRS OFF",
+        "Battery OFF"
+      ]
+    }
+  ]
+}
