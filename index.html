@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aircraft Checklists</title>
   <link rel="stylesheet" href="styles/style.css" />
+  <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js'></script>
 </head>
+
 <body>
   <h1>Aircraft Checklists</h1>
-  <ul id="aircraft-list"></ul>
+  <ul data-bind="foreach: aircraftList">
+    <li>
+      <a data-bind="attr: { href: 'viewer.html?plane=' + file }, text: name"></a>
+    </li>
+  </ul>
   <script src="scripts/list.js"></script>
 </body>
+
 </html>
