@@ -54,4 +54,4 @@ Happy flying! ✈️🛫🛩️
 
 ---
 
-**Disclaimer:** this is for flight simulation use, not intended for any real world operations. I am not responsible for any inaccuracies or other discrepencies on any checklist or data in this repository.
+**Disclaimer:** This is for flight simulation use, not intended for any real world operations. I am not responsible for any inaccuracies or other discrepencies on any checklist or data in this repository.
