@@ -1,0 +1,156 @@
+{
+  "aircraft": "Airbus A320neo (ToLiss)",
+  "checklists": [
+    {
+      "title": "Turnaround / Power Up (Gate)",
+      "items": [
+        "Parking brake SET",
+        "EXT PWR AVAIL → ON (or start APU)",
+        "BATT 1+2 ON",
+        "ADIRS L+CTR+R → NAV (ALIGN)",
+        "Emergency lights ARM",
+        "Seat belt signs AUTO/ON",
+        "No Smoking ON/AUTO",
+        "BEACON OFF (engines stopped)",
+        "FUEL PUMPS OFF (for refueling)",
+        "Request GPU / chocks / doors as needed",
+        "APU MASTER ON → START (if no GPU)",
+        "APU BLEED ON (if using APU for packs)",
+        "Packs ON, Bleed setup as required",
+        "Set QNH, date/time, displays and lighting"
+      ]
+    },
+    {
+      "title": "MCDU / FMGS Init",
+      "items": [
+        "INIT A: FROM/TO, FLT NBR, COST INDEX, CRZ LVL, TEMP",
+        "ALIGN IRS: set GPS INIT POS (if needed)",
+        "F-PLN: SID/STAR, AIRWAYS, DISCONTINUITIES RESOLVED",
+        "PERF TO: FLAPS/THS, FLEX/TOGA, V1/VR/V2",
+        "Secondary F-PLN (optional)",
+        "RAD NAV: ILS/VOR as required (auto-tune otherwise)",
+        "INIT B: ZFW/ZFWCG, BLOCK FUEL (after fuel loaded)"
+      ]
+    },
+    {
+      "title": "Before Start (At Gate)",
+      "items": [
+        "Fuel quantity CHECK — match dispatch",
+        "FUEL PUMPS ON (tanks with fuel)",
+        "Doors CLOSED, slides ARMED as required",
+        "Windows CLOSED",
+        "APU AVAIL (if used) — APU BLEED ON",
+        "External power OFF (if using APU)",
+        "Hydraulic ELEC PUMPS AUTO (as modeled)",
+        "ADIRS aligned — PFD/ND CHECK",
+        "FCU/MCP: HDG, ALT, SPD preselect; initial NAV mode armed if desired",
+        "TO/GA buttons test (optional)",
+        "BEACON ON (before push)",
+        "Pushback clearance RECEIVED"
+      ]
+    },
+    {
+      "title": "Pushback & Engine Start",
+      "items": [
+        "DOORS: verified closed",
+        "Parking brake RELEASE (per pushback)",
+        "ENG MODE SEL → IGN/START",
+        "Start ENG 2: ENG MASTER 2 → ON (monitor N2/EGT)",
+        "Start ENG 1: ENG MASTER 1 → ON",
+        "After each start: note stable parameters",
+        "After both started: ENG MODE SEL → NORM",
+        "APU BLEED OFF (if both engines supplying)",
+        "APU → OFF (as needed)"
+      ]
+    },
+    {
+      "title": "After Start & Taxi",
+      "items": [
+        "Ground spoilers ARM",
+        "Flaps SET for takeoff (per PERF)",
+        "Flight controls FULL, FREE",
+        "Pitch trim SET (per PERF)",
+        "AUTO BRK OFF (Airbus — TO autobrake not used)",
+        "Nose light TAXI, RWY TURN OFF as needed",
+        "TCAS TA/RA, XPDR AUTO/ALT (ToLiss option)",
+        "Anti-ice AS REQ",
+        "ECAM STATUS — CHECK (no blue)"
+      ]
+    },
+    {
+      "title": "Before Takeoff (Line Up)",
+      "items": [
+        "Cabin READY received",
+        "Exterior lights: STROBE AUTO/ON, LANDING ON, RWY TURN OFF ON",
+        "PACKS ON (normal ops)",
+        "TO CONFIG — PRESS (ECAM memo TAKEOFF NO BLUE)",
+        "Chrono START"
+      ]
+    },
+    {
+      "title": "After Takeoff / Climb",
+      "items": [
+        "Positive rate — GEAR UP",
+        "At thrust reduction/accel alt — CLB thrust, FLAPS RETRACT on schedule",
+        "Exterior: RWY TURN OFF OFF, NOSE light OFF, LANDING OFF (per SOP below 10,000)",
+        "APU OFF (if still running)",
+        "ECAM MEMO — CHECK"
+      ]
+    },
+    {
+      "title": "Descent Preparation",
+      "items": [
+        "MCDU: arrival STAR/APP set",
+        "Approach PERF: QNH, TEMP, DH/DA/MDA, LDG CONF, APPR SPD",
+        "BRIEFING — COMPLETE",
+        "SEATBELTS ON before TOD",
+        "Recall/ECAM STATUS — CHECK"
+      ]
+    },
+    {
+      "title": "Before Landing",
+      "items": [
+        "Auto brake — MED/LOW",
+        "Arm APPR (as needed), LS ON for ILS",
+        "Flaps on schedule, GEAR DOWN",
+        "Exterior lights ON",
+        "Cabin READY"
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        "Spoilers DISARM",
+        "Flaps RETRACT",
+        "Strobe AUTO/ON → AUTO/OFF when clear of RWY",
+        "Landing lights OFF, RWY TURN OFF as required",
+        "APU START (if needed at gate)",
+        "Radar OFF, TCAS STBY"
+      ]
+    },
+    {
+      "title": "Parking / Shutdown (Turnaround)",
+      "items": [
+        "Parking brake SET, chocks IN",
+        "ENG MASTER 1+2 → OFF",
+        "BEACON OFF (after engine spool down)",
+        "EXT PWR ON (if available) or keep APU AVAIL",
+        "APU BLEED ON (if using APU for packs)",
+        "Seat belts OFF",
+        "Fuel pumps OFF for refueling",
+        "Doors/jetway — OPEN as needed",
+        "ADIRS remain NAV for quick turnaround"
+      ]
+    },
+    {
+      "title": "Secure (Full Power Down)",
+      "items": [
+        "MCDU data — SAVE if needed",
+        "ADIRS OFF (if no further flight)",
+        "APU OFF, EXT PWR OFF",
+        "BATT 1+2 OFF",
+        "Airframe lights OFF"
+      ]
+    }
+  ]
+}

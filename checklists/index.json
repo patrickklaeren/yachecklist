@@ -1,3 +1,4 @@
 [
+  { "file": "A320N.json", "name": "Airbus A320N" },
   { "file": "B737NG.json", "name": "Boeing 737NG" }
 ]
